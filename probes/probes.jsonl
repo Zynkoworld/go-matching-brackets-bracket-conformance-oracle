@@ -1,0 +1,16 @@
+{"input": "[]", "expect": true, "raised": false, "task": "matching-brackets", "lang": "go"}
+{"input": "", "expect": true, "raised": false, "task": "matching-brackets", "lang": "go"}
+{"input": "[[", "expect": false, "raised": false, "task": "matching-brackets", "lang": "go"}
+{"input": "}{", "expect": false, "raised": false, "task": "matching-brackets", "lang": "go"}
+{"input": "{ }", "expect": true, "raised": false, "task": "matching-brackets", "lang": "go"}
+{"input": "{[])", "expect": false, "raised": false, "task": "matching-brackets", "lang": "go"}
+{"input": "{[]}", "expect": true, "raised": false, "task": "matching-brackets", "lang": "go"}
+{"input": "{}[]", "expect": true, "raised": false, "task": "matching-brackets", "lang": "go"}
+{"input": "{[)][]}", "expect": false, "raised": false, "task": "matching-brackets", "lang": "go"}
+{"input": "([{])", "expect": false, "raised": false, "task": "matching-brackets", "lang": "go"}
+{"input": "[({]})", "expect": false, "raised": false, "task": "matching-brackets", "lang": "go"}
+{"input": "[({}])", "expect": false, "raised": false, "task": "matching-brackets", "lang": "go"}
+{"input": "[]]", "expect": false, "raised": false, "task": "matching-brackets", "lang": "go"}
+{"input": ")()", "expect": false, "raised": false, "task": "matching-brackets", "lang": "go"}
+{"input": "{)()", "expect": false, "raised": false, "task": "matching-brackets", "lang": "go"}
+{"input": "(((185 + 223.85) * 15) - 543)/2", "expect": true, "raised": false, "task": "matching-brackets", "lang": "go"}
